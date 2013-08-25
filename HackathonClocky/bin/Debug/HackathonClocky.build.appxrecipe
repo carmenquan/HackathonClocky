@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CARMEN-PC</Machine>
+    <WindowsUser>Carmen</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\Clocky.png">
+      <PackagePath>Clocky.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\horn.wav">
+      <PackagePath>horn.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\alarm.wav">
+      <PackagePath>alarm.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\js\all.js">
+      <PackagePath>js\all.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\">
+      <Name>Microsoft.WinJS.2.0.Preview</Name>
+      <Version>1.0.9431.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0.Preview, MinVersion=1.0.9431.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\Microsoft.WinJS.2.0.Preview.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

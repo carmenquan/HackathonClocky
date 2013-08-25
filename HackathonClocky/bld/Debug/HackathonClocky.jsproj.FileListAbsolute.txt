@@ -1,0 +1,15 @@
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bin\Debug\resources.pri
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bin\Debug\AppxManifest.xml
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bin\Debug\HackathonClocky.build.appxrecipe
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\priconfig.xml
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\priconfig.xml.intermediate
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\layout.resfiles
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\layout.resfiles.intermediate
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\resources.resfiles
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\resources.resfiles.intermediate
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\pri.resfiles
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\pri.resfiles.intermediate
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\qualifiers.txt
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\qualifiers.txt.intermediate
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bld\Debug\ProjectArchitectures.txt

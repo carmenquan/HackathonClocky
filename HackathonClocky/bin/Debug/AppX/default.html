@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HackathonClocky</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0.Preview/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0.Preview/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0.Preview/js/ui.js"></script>
+
+    <!-- HackathonClocky references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <audio id="audiotag1" src="alarm.wav" loop="loop"></audio>
+    <audio id="horn" src="horn.wav"></audio>
+    <audio id="horn0" src="horn.wav"></audio>
+    <audio id="horn1" src="horn.wav"></audio>
+    <audio id="horn2" src="horn.wav"></audio>
+    <audio id="horn3" src="horn.wav"></audio>
+
+    <div id="clockScreen" class="section">
+        <div class="header date">
+            <div id="header_weekday" class="date-day"></div>
+            <img class="clocky" src="clocky.png" />
+            <div id="header_date" class="date-fulldate"></div>
+        </div>
+
+        <ul id="listLikes" class="list-likes">
+        </ul>
+
+        <div class="time">
+            <div id="time" class="time-clock"></div>
+            <div id="time_seconds" class="time-seconds"></div>
+            <div id="ampm" class="time-ampm">
+                <div id="time_am" class="time-am">AM</div>
+                <div id="time_pm" class="time-pm">PM</div>
+            </div>
+        </div>
+        
+        <div class="action-buttons clearfix">
+            <div id="setAlarm" class="setAlarm">New Alarm</div>
+            <div id="alarmDisplay" class="alarmDisplay"><button id="bell" class="win-backbutton white bell"></button><span id="AlarmSet"></span></div>
+            <div id="snooze" class="snooze">Tap to snooze</div>
+            <!--<button id="setAlarmAuto" class="clearfix">Autoset New Alarm</button>-->
+        </div>
+
+        <div class="footer blank">
+        </div>
+
+        <div id="turn-off" class="footer turn-off">
+            Swipe to turn off
+        </div>
+    </div>
+
+    <div id="setAlarmScreen" class="alarmSet">
+        <div class="header">
+            <button class="win-backbutton white" id="backToClock"></button>
+            Set Alarm
+        </div>
+
+        <div class="timePicker">
+            <div class="timePicker-time">
+                <input class="input" type="text" id="alarmSet_hour" name="alarmSet_hour" /><span>:</span>
+                <input class="input" type="text" id="alarmSet_min" name="alarmSet_min" /><span>:</span>
+                <input class="input" type="text" id="alarmSet_sec" name="alarmSet_sec" />
+            </div>
+            <div id="timePicker_ampm" class="timePicker-ampm">
+                <div id="timePicker_am" class="timePicker-am">am</div>
+                <div id="timePicker_pm" class="timePicker-pm">pm</div>
+            </div>
+
+            <div class="footer select-time">
+                <button id="alarm" class="win-backbutton white check"></button>
+                <button id="cancelSetAlarm" class="win-backbutton white cancel"></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

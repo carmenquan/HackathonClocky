@@ -1,0 +1,283 @@
+﻿body {
+    //font-family:'Segoe UI';
+}
+
+#clockScreen {
+    background-color: #FFFFFF;
+    height:692px;
+}
+
+.clocky {
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    width:70px;
+}
+
+.list-likes {
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    font-size:20px;
+    color:#8D8D8D;
+    width:300px;
+    list-style:none;
+    overflow-y:hidden;
+    height: 300px;
+}
+
+.list-likes p {
+    line-height: 20px;
+}
+
+.list-likes span {
+    color: #1ABC9C;
+}
+
+.header {
+    font-size: 96px;
+    color: #C6C6C6;
+    padding-top:60px;
+    margin: 0 0 0 60px;
+}
+
+.header.date {
+    font-size: 80px;
+    margin-left:80px;
+}
+
+.white {
+    color: #C6C6C6;
+    border-color: #FFFFFF;
+}
+
+.date .date-day {
+    text-transform: uppercase;
+    color: #95A5A6;
+    margin-bottom:-20px;
+}
+
+.date .date-fulldate {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #95A5A6;
+    margin-left:5px;
+}
+
+.time {
+    margin-top:50px;
+    font-size: 250px;
+    color: #1ABC9C;
+    text-align: right;
+    margin-bottom:50px;
+}
+
+.alarmSet {
+    position:absolute;
+    top:0px;
+    left:-1371px;
+    background-color: #383838;
+    height:772px;
+    width:1372px;
+    transition:left 1s;
+    -webkit-transition:left 1s; /* Safari */
+}
+
+.time {
+    float: right;
+    margin-right:60px;
+}
+
+.time-seconds {
+    float:left;
+    margin-top:155px;
+    margin-right:80px;
+    font-size: 110px;
+    color: #1ABC9C;
+    width:50px;
+}
+.time-clock {
+    float:left;
+    margin-right:10px;
+}
+
+.grey {
+   color:#EEEEEE;
+}
+
+.time-ampm {
+    float:left;
+    margin-top:55px;
+    font-size:110px;
+}
+
+.time-ampm .time-am {
+    margin-bottom: -50px;
+}
+
+.alarmSet .header {
+    font-size: 80px;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+.timePicker {
+    font-size:190px;
+    color: #1ABC9C;
+    margin-top:100px;
+    margin-left:290px;
+
+}
+
+.timePicker span {
+    display: inline-block;
+    margin-right: -54px;
+}
+
+.timePicker-time {
+    float: left;
+}
+
+.timePicker .timePicker-ampm {
+    float: left;
+    font-size:65px;
+    margin-left:-10px;
+    margin-top: 83px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.timePicker .timePicker-am {
+    margin-bottom:-25px;
+}
+
+.timePicker .active {
+    color: #1ABC9C;
+}
+
+.timePicker .input {
+    background-color: #383838;
+    border:1px solid #1ABC9C;
+    color: #1ABC9C;
+    font-size:130px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    line-height:0px;
+}
+
+.timePicker .input:active, .timePicker .input:hover, .timePicker .input:focus {
+    background-color: #383838;
+    border:1px solid #1ABC9C;
+    color: #1ABC9C;
+    font-size:130px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    line-height:0px;
+}
+
+.footer {
+    position: absolute;
+    top: 692px;
+    left: 0px;
+    height: 80px;
+    width: 1372px;
+}
+
+.footer.select-time {
+    border-top: 1px solid #1ABC9C;
+}
+
+.footer.blank {
+    border-top:1px solid #1ABC9C;
+    background-color:#1ABC9C;
+}
+
+.footer.turn-off {
+    visibility:hidden;
+    background-color:#8D8D8D;
+    font-size:40px;
+    text-align:center;
+    color:#DDD;
+    padding-top:10px;
+}
+
+#alarm {
+    position: absolute;
+    top: 20px;
+    right: 110px;
+}
+
+#cancelSetAlarm {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.footer .check.win-backbutton::before, .submit .check.win-back::before {
+    font-family: "Segoe UI Symbol";
+    font-weight: normal;
+    content: "\E10B";
+    vertical-align: 50%;
+    border-color:white;
+    color:white;
+}
+
+.footer .cancel.win-backbutton::before, .submit .cancel.win-back::before {
+    font-family: "Segoe UI Symbol";
+    font-weight: normal;
+    content: "\E10A";
+    vertical-align: 50%;
+    border-color:white;
+    color:white;
+}
+
+.clearfix .bell.win-backbutton::before, .clearfix .bell.win-back::before {
+    font-family: "Segoe UI Symbol";
+    font-weight: normal;
+    content: "\E121";
+    vertical-align: 50%;
+    color:#C6C6C6;
+}
+
+.action-buttons {
+    top:-50px;
+    position: relative;
+}
+
+.setAlarm, .alarmDisplay, .snooze {
+    position:absolute;
+    top:0;
+    right:20px;
+    display: table-row;
+    float:right;
+    color: #C6C6C6;
+    text-align: right;
+    font-size: 40px;
+    margin-right:60px;
+}
+
+.setAlarm {
+    right: 5px;
+}
+
+.snooze {
+    visibility:hidden;
+    font-size:52px;
+}
+
+.alarmDisplay {
+    visibility:hidden;
+    top:-20px;
+    right:5px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.setAlarm:hover {
+    color: #1ABC9C;
+}

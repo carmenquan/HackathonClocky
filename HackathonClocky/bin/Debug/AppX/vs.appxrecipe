@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CARMEN-PC</Machine>
+    <WindowsUser>Carmen</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>700CD87BAAE7324189E0C03CA50EEA0FF7B0A97AB7C6A933D3B87D14FDE1096C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>588d9b83-2584-4dc3-87ea-0bac9b410127_1.0.0.0_neutral__n8kpxd77etpc6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>588d9b83-2584-4dc3-87ea-0bac9b410127_n8kpxd77etpc6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>588d9b83-2584-4dc3-87ea-0bac9b410127</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Carmen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-18T22:23:42.999</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\Clocky.png">
+      <PackagePath>Clocky.png</PackagePath>
+      <Modified>2013-08-18T22:21:45.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-18T02:45:08.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-18T02:45:10.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-18T07:58:41.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-18T02:45:09.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\horn.wav">
+      <PackagePath>horn.wav</PackagePath>
+      <Modified>2013-08-18T07:55:52.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\alarm.wav">
+      <PackagePath>alarm.wav</PackagePath>
+      <Modified>2013-08-18T07:27:39.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-08-18T22:23:56.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\js\all.js">
+      <PackagePath>js\all.js</PackagePath>
+      <Modified>2013-08-18T01:36:47.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-08-18T23:28:45.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-08-18T22:29:48.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\carmen\documents\visual studio 2013\Projects\HackathonClocky\HackathonClocky\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-08-18T22:23:42.808</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\">
+      <Name>Microsoft.WinJS.2.0.Preview</Name>
+      <Version>1.0.9431.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0.Preview, MinVersion=1.0.9431.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\Microsoft.WinJS.2.0.Preview.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
